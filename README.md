@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 YouTube Video Downloader with Flask and yt-dlp
 This web application allows users to download YouTube videos easily. It uses a Flask backend to process requests, and yt-dlp to download videos in the best possible quality. The metadata of each downloaded video is stored in a MongoDB database. The frontend is built using React, providing a smooth user experience.
 
@@ -78,8 +77,4 @@ bash
 Copy code
 cd frontend
 npm start
-The app will now be running locally at http://localhost:3000 (for the frontend) and http://localhost:5000 (for the backend).
-
-=======
-
->>>>>>> aec551afdfce0236b6a504bebe77dd5dd0236ec5
+The app will now be running locally at http://localhost:3000 (for the frontend) and http://localhost:5000 (for the backend)
