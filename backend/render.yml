@@ -3,8 +3,8 @@ services:
     name: youtube-downloader
     env: python
     plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "gunicorn backend.app:app"
     envVars:
       - key: MONGO_URI
-        value: mongodb://<youtube_downloader>
+        value: mongodb+srv://sammedghattad2413:<1234567>@cluster0.m47ec.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
