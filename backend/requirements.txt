@@ -2,3 +2,4 @@ Flask==2.2.5
 yt-dlp==2023.10.7
 pymongo==4.3.3
 Flask-CORS==3.0.10
+gunicorn
