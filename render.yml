@@ -8,3 +8,13 @@ services:
     envVars:
       - key: MONGO_URI
         value: mongodb+srv://sammedghattad2413:<1234567>@cluster0.m47ec.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+
+        - type: web
+    name: youtube-downloader-frontend
+    env: node
+    plan: free
+    buildCommand: "cd frontend && npm install && npm run build"
+    startCommand: "cd frontend/build && serve -s ."
