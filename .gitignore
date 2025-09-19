@@ -6,7 +6,7 @@ __pycache__/
 *.env
 .venv/
 venv/
-env/
+.env
 *.sqlite3
 .env
 # Node.js
@@ -38,3 +38,4 @@ frontend/.env
 backend/.env
 frontend/node_modules/
 backend/node_modules/
+.env
