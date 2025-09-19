@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, send_file
-from flask_cors import CORS
+from flask_cors import CORScd
 import os
 import re
 import uuid
